@@ -12,6 +12,17 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Part 1: Project Gutenberg
+=========================
+
+Modifications:
+- Mode body look like it is written on older stained paper
+- All images black and white
+- The first letter of each chapter is larger to give a older look
+- Used a medieval font for header and paragraph tags
+
+Any online resources I used to aid these modifications are cited in styles.css.
+
 License/Copyright
 =================
 

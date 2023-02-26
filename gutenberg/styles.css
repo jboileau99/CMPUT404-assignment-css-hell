@@ -1,7 +1,23 @@
-/* @import url('https://fonts.google.com/specimen/MedievalSharp'); */
+@font-face {
+    font-family: medieval;
+    src: url(fonts/MedievalSharp-Regular.ttf);
+}
+
+@font-face {
+    font-family: old-cursive;
+    src: url(fonts/CedarvilleCursive-Regular.ttf);
+}
 
 /* 
     Make body look old
+
+    Citation:
+
+    Accepted Answer to "Old paper background texture with just css"
+    Original answer by user "Christophe"
+    Answer edited by user "Sebastian Nielsen
+    August 27, 2020
+    Stack Overflow Answer
     https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
 */
 body {
@@ -14,15 +30,31 @@ body {
 
 /* 
     Black and white images
+
+    Citation:
+
+    John Negoita
+    June 6, 2020
+    7 CSS Image Effects For Making Awesome Vintage Photos
+    Version 1
+    CSS Source Code
     https://www.coding-dude.com/wp/css/css-image-effects/
 
-    TODO: Blur edges and round corners or something like that
 */
 img {
     filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
 }
 
-/* TODO: Get fonts to work or find a better available one, update first letter to look different */
+/* Update font to a medieval one */
 p {
-    font-family: MedievalSharp, sans-serif;
+    font-family: medieval, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: medieval, sans-serif;
+}
+
+/* Make first letter of each paragraph bigger */
+.chapter p:first-of-type::first-letter {
+    font-size: 2em;
 }
