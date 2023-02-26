@@ -15,6 +15,8 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 Part 1: Project Gutenberg
 =========================
 
+[1.html](https://jboileau99.github.io/CMPUT404-assignment-css-hell/gutenberg/1.html) | [2.html](https://jboileau99.github.io/CMPUT404-assignment-css-hell/gutenberg/2.html) | [3.html](https://jboileau99.github.io/CMPUT404-assignment-css-hell/gutenberg/3.html)
+
 Modifications:
 - Mode body look like it is written on older stained paper
 - All images black and white
@@ -22,6 +24,11 @@ Modifications:
 - Used a medieval font for header and paragraph tags
 
 Any online resources I used to aid these modifications are cited in styles.css.
+
+Part 2: Homepage
+================
+
+[good.html](https://jboileau99.github.io/CMPUT404-assignment-css-hell/homepage/good.html) | [ugly.html](https://jboileau99.github.io/CMPUT404-assignment-css-hell/homepage/ugly.html)
 
 License/Copyright
 =================
