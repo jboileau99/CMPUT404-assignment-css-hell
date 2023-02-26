@@ -1,0 +1,28 @@
+/* @import url('https://fonts.google.com/specimen/MedievalSharp'); */
+
+/* 
+    Make body look old
+    https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
+*/
+body {
+    margin: 2em 0;
+    padding: 4em;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    border-radius: 1em;
+}
+
+/* 
+    Black and white images
+    https://www.coding-dude.com/wp/css/css-image-effects/
+
+    TODO: Blur edges and round corners or something like that
+*/
+img {
+    filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+}
+
+/* TODO: Get fonts to work or find a better available one, update first letter to look different */
+p {
+    font-family: MedievalSharp, sans-serif;
+}

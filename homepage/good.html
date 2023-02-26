@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Justin Boileau</title>
+        <style>
+            
+            body {
+                margin: 1em 2em 0em 2em;
+                background-color: #F8F8FF;
+            }
+
+            h1, h2, h3 {
+                text-align: center;
+            }
+
+            h1, h2, h3, h4, h5 {
+                margin: 0;
+                padding: 0;
+            }
+
+            #profile {
+                display: grid;
+                grid-template-columns: 3fr 2fr;
+                color: #253D5B;
+                border: 4px solid #253D5B;
+                border-radius: 4px;
+                background: #CFCECA;
+                width: 100vw;
+                max-width: 45em;
+                margin: auto; /* Center */
+                padding: 2em 2em 2em 2em;
+            }
+
+            #heading {
+                grid-column: 1/3;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                margin-bottom: 2em;
+            }
+
+            #heading div {
+                margin: auto;
+                grid-column: 1/4;
+            }
+
+            #heading img {
+                margin: auto;
+                border-radius: 200px;
+                grid-column: 4/5;
+                margin-left: -20px;
+            }
+
+            #work-exp {
+                grid-column: 1/2;
+                padding-right: 1em;
+            }
+
+            #work-exp h2 {
+                margin-bottom: 1em;
+            }
+
+            #about {
+                grid-column: 2/3;
+                grid-row: 2/3;
+                display: grid;
+                grid-template-rows: 0.5fr repeat(4, 2fr);
+                padding-left: 1em;
+                text-align: center;
+                border-left: 2px solid #253D5B;
+            }
+
+            #about h2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .about-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #why-hire {
+                grid-column: 1/3;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                margin-top: 2em;
+            }
+
+            #why-hire h2 {
+                grid-column: span 4;
+            }
+
+            #why-hire p {
+                grid-column: span 3;
+            }
+
+            #why-hire img {
+                grid-column: span 1;
+            }
+
+            .why-hire-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 2em;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="profile">
+            <div id="heading">
+                <div><h1>Justin Boileau</h1><br><h2>Software Engineering Student</h2></div>
+                <img src="images/profile.jpeg">
+            </div>
+            <div id="work-exp">
+                <h2>Work Experience</h2>
+                <h4>Blindnet - New York, NY / Paris, France</h4>
+                <h5><i>Software Engineer Intern</i></h5>
+                <p>In a fast-paced startup environment, participated in the architectural conceptualization, design, and development of an open-source privacy software development kit.</p>
+                <h4>PCL Construction - Edmonton, AB, Canada</h4>
+                <h5><i>Software Developer Intern</i></h5>
+                <p>Worked on agile team developing Python and Powershell automations for cybersecurity and network tasks resulting in increased efficiency and decreased workload for other team members.</p>
+                <h4>ONE Properties - Edmonton, AB, Canada</h4>
+                <h5><i>Financial Analyst Student</i></h5>
+                <p>Prepared, analyzed, and presented financial models used to evaluate development projects.</p>
+            </div>
+            <div id="about">
+                <h2>About Me</h2>
+                <div class="about-section">
+                    <h3>Academics</h3>
+                    3.6 GPA, Graduating this semester
+                </div>
+                <div class="about-section">
+                    <h3>Programming Languages</h3>
+                    Python, Javascript, Rust, Java
+                </div>
+                <div class="about-section">
+                    <h3>Frameworks + Technologies</h3>
+                    Django, React, Flask, Android
+                </div>
+                <div class="about-section">
+                    <h3>Hobbies</h3>
+                    Video Games, Golf, Drinking Beer
+                </div>
+            </div>
+            <div id="why-hire">
+                <h2>Why hire me?</h2>
+                <p>I'm a very hard worker! I enjoy applying myself to any challenge and puting in the work to reach a solution. You can count on me to get the job done every time, and inspire others to give their best to any project.</p>
+                <div class="why-hire-image"><img src="images/hard-work.png" height="80px"></div>
+                <div class="why-hire-image"><img src="images/leadership.png" height="80px"></div>
+                <p>I have excellent leadership skills. Throughout my professional and scholastic experience I've excelled in multiple leadership roles. This experience means I am an asset as both an individual contributor or as a project leader.</p>
+                <p>I have a user oriented persepective. My experience doing UX/UI development and gathering requirements from a variety of stakeholders has made me very customer oriented. This leads to a better product which always meets the clients needs.</p>
+                <div class="why-hire-image"><img src="images/rating.png" height="80px"></div>
+            </div>
+        </div>
+        <footer>
+            <a href="https://www.flaticon.com/free-icons/leadership" title="leadership icons">Leadership icons created by Flat Icons - Flaticon</a> - 
+            <a href="https://www.flaticon.com/free-icons/client" title="client icons">Client icons created by Freepik - Flaticon</a> - 
+            <a href="https://www.flaticon.com/free-icons/hard-work" title="hard work icons">Hard work icons created by Freepik - Flaticon</a>
+        </footer>
+    </body>
+</html>
