@@ -1,3 +1,5 @@
+> **NOTE:** All HTML files are hosted on github pages, see part 1 and 2 below for links.
+
 Assignment: CSS Hell
 ====================
 
